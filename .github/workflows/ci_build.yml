@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 'Check Application version'
-        run: echo "Application version: $(cat version.txt)"
+        run: echo "Application version $(cat version.txt)"
 
       - name: 'Build Application'
         id: build_step
