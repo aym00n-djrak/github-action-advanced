@@ -1,1 +1,1 @@
-INSERT INTO table_development (id, name, description) VALUES (1, 'Development Task', 'This is a task for development purposes.');
+INSERT INTO table_development (id) VALUES (1);
