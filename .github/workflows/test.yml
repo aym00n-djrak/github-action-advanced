@@ -3,7 +3,7 @@ name: 'DEMO GHA'
 on:
   push:
     branches:
-      -main
+      - main
 jobs:
   hello:
     runs-on: ubuntu-latest
